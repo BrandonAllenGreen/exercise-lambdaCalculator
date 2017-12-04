@@ -38,7 +38,7 @@ function calculate(num1, num2, func) {
   return func(num1, num2);
 }
 
- // even listeners for buttons
+ // event listeners for buttons
 document.getElementById("butAdd").addEventListener("click", function() {
   let result = calculate(+mathInput1.value, +mathInput2.value, add);
   printToDOM(result);
